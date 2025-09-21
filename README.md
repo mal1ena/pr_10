@@ -19,6 +19,7 @@ SELECT
 customer_json -> 'customer_id' AS customer_id, customer_json,to_tsvector('english', customer_json) AS search_vector FROM customer_sales
 );
 ```
+<img width="927" height="280" alt="image" src="https://github.com/user-attachments/assets/15e343f8-6ba7-4448-8c79-a4324f74cefb" />
 
 ![image](https://github.com/user-attachments/assets/0339ec9a-3c2d-4f00-ba94-026d144bee2c)
 
